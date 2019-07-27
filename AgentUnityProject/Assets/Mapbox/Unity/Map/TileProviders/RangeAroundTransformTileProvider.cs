@@ -15,7 +15,7 @@ namespace Mapbox.Unity.Map.TileProviders
 		public override void OnInitialized()
 		{
 			_rangeTileProviderOptions = (RangeAroundTransformTileProviderOptions)Options;
-
+            
 			if (_rangeTileProviderOptions.targetTransform == null)
 			{
 				Debug.LogError("TransformTileProvider: No location marker transform specified.");
