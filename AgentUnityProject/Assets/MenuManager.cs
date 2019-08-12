@@ -5,8 +5,31 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    public void LauchGame()
+    // String for the scene name 
+    public string SceneName;
+
+    public void ChangeScene()
     {
-        SceneManager.LoadScene("AgentTestScene");
+        SceneManager.LoadScene(SceneName);
+    }
+
+    public void LoadLocationMap()
+    {
+        SceneManager.LoadScene("AgentGameScreen");
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenuScreen");
+    }
+
+    public void LoadTrafficMap()
+    {
+        SceneManager.LoadScene("AgentTrafficTestScene");
+    }
+
+    public void LoadDebriefScreen()
+    {
+        SceneManager.LoadScene("OpDebriefScreen");
     }
 }
