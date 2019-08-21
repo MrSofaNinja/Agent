@@ -531,7 +531,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'This is where the statistics from the Op would be displayed and the improvements
+  m_Text: 'This is where the statistics from the Op would be displayed and the impact
     to the Agent''s character would be shown
 
 '
@@ -826,9 +826,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Main Menu
-
-'
+  m_Text: Security Clearance
 --- !u!224 &476520753376501143
 RectTransform:
   m_ObjectHideFlags: 0
@@ -861,7 +859,7 @@ GameObject:
   - component: {fileID: 476520754469594521}
   - component: {fileID: 476520754469594522}
   m_Layer: 0
-  m_Name: MainMenuButton
+  m_Name: SecurityClearanceButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -948,7 +946,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 375496293}
-        m_MethodName: LoadMainMenu
+        m_MethodName: LoadSecurityClearanceReview
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

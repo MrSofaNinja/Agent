@@ -32,4 +32,15 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("OpDebriefScreen");
     }
+
+    public void LoadAgentCreationScreen()
+    {
+        SceneManager.LoadScene("AgentCreationScreen");
+    }
+
+    public void LoadSecurityClearanceReview()
+    {
+        SceneManager.LoadScene("SecurityClearanceReview");
+    }
 }
+

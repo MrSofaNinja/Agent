@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OpDebriefScreen.unity
     guid: acf7d1a5f5111784b887b40fff88150d
+  - enabled: 1
+    path: Assets/Scenes/AgentCreationScreen.unity
+    guid: 8186d98cd453b98429854349356ff413
+  - enabled: 1
+    path: Assets/Scenes/SecurityClearanceReview.unity
+    guid: 9c15b34a03c2e1d47bb87863544017cd
   m_configObjects: {}
