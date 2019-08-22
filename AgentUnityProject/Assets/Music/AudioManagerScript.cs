@@ -70,6 +70,7 @@ public class AudioManagerScript : MonoBehaviour
     public void AddSoundToList(Sound sound)
     {
         SoundList.Add(sound);
+        ListIsPlaying = true;
     }
 
     public void AddSoundToList(string Name)
@@ -93,12 +94,14 @@ public class AudioManagerScript : MonoBehaviour
             {
                 ListIsPlaying = false;
                 Debug.Log("End of list");
+                CurrentlyPlayingSound.Clip = null;
             }
         }
         else
         {
             Debug.Log("End of list");
             ListIsPlaying = false;
+            CurrentlyPlayingSound.Clip = null;
         }
     }
 

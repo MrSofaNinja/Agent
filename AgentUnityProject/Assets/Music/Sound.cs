@@ -22,6 +22,7 @@ public class Sound
     public AudioSource Source;
 
     // might want a 'played' bool in here too.
-    
+    [HideInInspector]
+    public bool HasPlayed;
 
 }
